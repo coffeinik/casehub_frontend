@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.left-menu {
+  display: flex;
+  position: absolute;
+  height: calc(100% - 50px);
+}
+
+.cases-tree {
+  min-width: 300px;
+  background-color: beige !important;
+}
+
+.vertical-menu-button {
+  min-width: 60px !important;
+  min-height: 60px !important;
+}
